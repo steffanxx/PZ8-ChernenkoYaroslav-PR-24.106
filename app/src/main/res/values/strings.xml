@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">pz8-chernenko-yaroslav-pr24.106</string>
+    <string name="next">Продолжить</string>
+    <string name="_20_25">20:25</string>
+    <string name="cruas">Круасан</string>
+    <string name="cesari">Цезарь</string>
+    <string name="spaget">Спагетти</string>
+    <string name="bors">Борщ</string>
+    <string name="dela">Дела</string>
+    <string name="kliker">Кликер</string>
+    <string name="cancel">Cancel</string>
+    <string name="_0">На сегодня открытых дел: 0</string>
+    <string name="u">-</string>
+    <string name="n">+</string>
+    <string name="j">Cancel</string>
+    <string name="sbros">Сбросить</string>
+    <string name="pause">Пауза</string>
+</resources>
