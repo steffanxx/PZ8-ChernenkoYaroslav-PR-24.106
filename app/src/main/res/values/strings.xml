@@ -15,4 +15,7 @@
     <string name="j">Cancel</string>
     <string name="sbros">Сбросить</string>
     <string name="pause">Пауза</string>
+    <string name="todo">TODO</string>
+    <string name="borsh">Борщ</string>
+    <string name="recept">Говядина на косточке - 500г.\nКапуста - 400г\n3-4 картофелины\n1 морковь\n1 большая луковица\n\nПриготовление:\n1. Мясо промыть, залить водой\n2. Довести до кипения, снять пену\n3. Варить 1.5 часа\n4. Добавить овощи\n5. Варить еще 30 минут</string>
 </resources>

@@ -10,50 +10,38 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="72dp"
         android:fontFamily="@font/cormorantInfantbold"
-        android:text="WSK Police"
-        android:textColor="@color/blue"
+        android:text="CookBook"
+        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="HardcodedText,VisualLintOverlap" />
 
-    <EditText
-        android:id="@+id/editTextTime"
-        android:layout_width="66dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginBottom="204dp"
-        android:ems="10"
-        android:inputType="time"
-        android:text="@string/_20_25"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="Autofill,LabelFor,TextSizeCheck,VisualLintWearMargin,VisualLintBounds" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="143dp"
         android:layout_height="43dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTint="@color/blue"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/orange"
         android:fontFamily="@font/cormorantInfantbold"
         android:text="@string/next"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck,VisualLintBounds,VisualLintWearMargin" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="105dp"
-        android:layout_height="103dp"
-        app:srcCompat="@drawable/policeman"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="45dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        android:layout_width="92dp"
+        android:layout_height="104dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="21dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
